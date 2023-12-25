@@ -26,17 +26,9 @@ func main() {
 }
 
 func generate(vidName, outImg string) error {
-	// /var/tmp/in.mp4
-	//vidName := os.Args[1]
-	// /var/tmp/in.jpg
-	//imgName := os.Args[2]
-	//outImg := os.Args[2]
-
 	f, err := os.OpenFile(vidName, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 777)
 	err = f.Close()
 	if err != nil {
-		//fmt.Printf("%s File not found!!!\n", vidName)
-		//log.Fatal(err)
 		return err
 	}
 
