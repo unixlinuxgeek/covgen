@@ -1,1 +1,1 @@
-### Generate cover from video.
+### Utility for creating thumbnails from videos
