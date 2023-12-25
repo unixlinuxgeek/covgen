@@ -1,1 +1,1 @@
-### Utility for creating thumbnails from videos
+### Utility for creating thumbnail from video.
