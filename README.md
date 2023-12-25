@@ -1,1 +1,1 @@
-### Web Service generating video preview.
+### Generate cover from video.
